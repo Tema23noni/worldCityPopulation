@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/worldCityPopulation/static/css/main.0a823bb5.css",
+    "main.js": "/worldCityPopulation/static/js/main.cdb01168.js",
+    "index.html": "/worldCityPopulation/index.html",
+    "main.0a823bb5.css.map": "/worldCityPopulation/static/css/main.0a823bb5.css.map",
+    "main.cdb01168.js.map": "/worldCityPopulation/static/js/main.cdb01168.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a823bb5.css",
+    "static/js/main.cdb01168.js"
+  ]
+}
