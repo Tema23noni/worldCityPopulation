@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
 
+import { useState } from 'react';
+import AboutCity from './comp/AboutCity';
+import scroll from './img/icons8-толстая-стрелка-вниз-24 (1).png'
 function App() {
+  const [active,setActive] = useState(1);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {
+        active === 0
+        ? <div className={`scroll_cont ${active}`}>
+            <img className='scroll' src={scroll}/>
+          </div>  
+        :<AboutCity/>
+      }
     </div>
+
+
   );
 }
 
